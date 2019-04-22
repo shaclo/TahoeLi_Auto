@@ -1,0 +1,194 @@
+
+*****************************************
+20190109 17:00:01:GET weather Start..........
+20190109 17:00:01:Weather#Query Sucess,INSERT INTO weather VALUES ('2019-01-09','多云','0','西南','≤3','17')
+
+##########################################
+20190110 11:45:00:GET CRE sales Start..........
+
+##########################################
+20190110 13:09:39:GET CRE sales Start..........
+
+##########################################
+20190110 13:46:06:GET CRE sales Start..........
+
+##########################################
+20190110 13:47:34:GET CRE sales Start..........
+20190110 13:47:35:Send mail['wangting@tahoecn.com', 'dengchundi@tahoecn.com', 'liuxuanchao@tahoecn.com', 'hanyating@tahoecn.com', 'zhangdawei1@tahoecn.com', 'shaclo@139.com']
+20190110 13:47:36:Send mail sccuess
+20190110 13:47:36:GET C:\ProgramData\Anaconda3
+20190110 13:47:36:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190110 13:47:36:.........Complate..........
+*****************************************
+20190110 17:00:05:GET weather Start..........
+20190110 17:00:05:Weather#Query Sucess,INSERT INTO weather VALUES ('2019-01-10','晴','4','西南','≤3','20')
+
+*****************************************
+20190111 10:00:05:GET weather Start..........
+20190111 10:00:05:Weather#Query Sucess,INSERT INTO weather VALUES ('2019-01-11','阴','0','西','≤3','42')
+
+##########################################
+20190111 11:45:01:GET CRE sales Start..........
+20190111 11:45:01:Send mail['wangting@tahoecn.com', 'dengchundi@tahoecn.com', 'liuxuanchao@tahoecn.com', 'hanyating@tahoecn.com', 'zhangdawei1@tahoecn.com', 'shaclo@139.com']
+20190111 11:45:02:Send mail sccuess
+20190111 11:45:02:GET C:\ProgramData\Anaconda3
+20190111 11:45:02:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190111 11:45:02:.........Complate..........
+##########################################
+20190112 11:40:01:GET CRE sales Start..........
+20190112 11:40:01:Send mail['dengchundi@tahoecn.com', 'liuxuanchao@tahoecn.com', 'caohanyan@tahoecn.com', 'changqiqi@tahoecn.com', 'hanyating@tahoecn.com', 'songyuanyuan1@tahoecn.com', 'wangna1@tahoecn.com', 'zhangdawei1@tahoecn.com', 'shaclo@139.com']
+20190112 11:40:03:Send mail sccuess
+20190112 11:40:03:GET C:\ProgramData\Anaconda3
+20190112 11:40:03:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190112 11:40:03:.........Complate..........
+*****************************************
+20190112 14:00:02:GET weather Start..........
+20190112 14:00:02:Weather#Query Sucess,INSERT INTO weather VALUES ('2019-01-12','多云','3','西南','≤3','42')
+
+##########################################
+20190113 11:40:00:GET CRE sales Start..........
+20190113 11:40:01:Send mail['dengchundi@tahoecn.com', 'liuxuanchao@tahoecn.com', 'caohanyan@tahoecn.com', 'changqiqi@tahoecn.com', 'hanyating@tahoecn.com', 'songyuanyuan1@tahoecn.com', 'wangna1@tahoecn.com', 'zhangdawei1@tahoecn.com', 'shaclo@139.com']
+20190113 11:40:02:Send mail sccuess
+20190113 11:40:02:GET C:\ProgramData\Anaconda3
+20190113 11:40:02:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 11:40:02:.........Complate..........
+##########################################
+20190113 12:36:20:GET CRE sales Start..........
+20190113 12:36:20:Send mail ['dengchundi@tahoecn.com'] ,12:36:21 Send mail sccuess.
+ 20190113 12:36:21:Send mail ['liuxuanchao@tahoecn.com'] ,12:36:22 Send mail sccuess.
+ 20190113 12:36:22:Send mail ['caohanyan@tahoecn.com'] ,12:36:23 Send mail sccuess.
+ 20190113 12:36:23:Send mail ['changqiqi@tahoecn.com'] ,12:36:24 Send mail sccuess.
+ 20190113 12:36:24:Send mail ['hanyating@tahoecn.com'] ,12:36:25 Send mail sccuess.
+ 20190113 12:36:25:Send mail ['songyuanyuan1@tahoecn.com'] ,12:36:26 Send mail sccuess.
+ 20190113 12:36:26:Send mail ['wangna1@tahoecn.com'] ,12:36:27 Send mail sccuess.
+ 20190113 12:36:27:Send mail ['zhangdawei1@tahoecn.com'] ,12:36:27 Send mail sccuess.
+ 20190113 12:36:27:Send mail ['shaclo@139.com'] ,12:36:28 Send mail sccuess.
+ 20190113 12:36:28:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:36:28:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:36:28:.........Complate..........
+##########################################
+20190113 12:38:28:GET CRE sales Start..........
+20190113 12:38:28:Send mail ['dengchundi@tahoecn.com'] ,12:38:28 Send mail sccuess.
+ 20190113 12:38:28:Send mail ['liuxuanchao@tahoecn.com'] ,12:38:29 Send mail sccuess.
+ 20190113 12:38:29:Send mail ['caohanyan@tahoecn.com'] ,12:38:29 Send mail sccuess.
+ 20190113 12:38:29:Send mail ['changqiqi@tahoecn.com'] ,12:38:29 Send mail sccuess.
+ 20190113 12:38:29:Send mail ['hanyating@tahoecn.com'] ,12:38:30 Send mail sccuess.
+ 20190113 12:38:30:Send mail ['songyuanyuan1@tahoecn.com'] ,12:38:30 Send mail sccuess.
+ 20190113 12:38:30:Send mail ['wangna1@tahoecn.com'] ,12:38:31 Send mail sccuess.
+ 20190113 12:38:31:Send mail ['zhangdawei1@tahoecn.com'] ,12:38:31 Send mail sccuess.
+ 20190113 12:38:31:Send mail ['shaclo@139.com'] ,12:38:31 Send mail sccuess.
+ 20190113 12:38:31:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:38:31:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:38:31:.........Complate..........
+##########################################
+20190113 12:38:39:GET CRE sales Start..........
+20190113 12:38:40:Send mail ['dengchundi@tahoecn.com'] ,12:38:40 Send mail sccuess.
+ 20190113 12:38:40:Send mail ['liuxuanchao@tahoecn.com'] ,12:38:40 Send mail sccuess.
+ 20190113 12:38:40:Send mail ['caohanyan@tahoecn.com'] ,12:38:41 Send mail sccuess.
+ 20190113 12:38:41:Send mail ['changqiqi@tahoecn.com'] ,12:38:41 Send mail sccuess.
+ 20190113 12:38:41:Send mail ['hanyating@tahoecn.com'] ,12:38:41 Send mail sccuess.
+ 20190113 12:38:41:Send mail ['songyuanyuan1@tahoecn.com'] ,12:38:42 Send mail sccuess.
+ 20190113 12:38:42:Send mail ['wangna1@tahoecn.com'] ,12:38:42 Send mail sccuess.
+ 20190113 12:38:42:Send mail ['zhangdawei1@tahoecn.com'] ,12:38:42 Send mail sccuess.
+ 20190113 12:38:42:Send mail ['shaclo@139.com'] ,12:38:42 Send mail sccuess.
+ 20190113 12:38:42:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:38:42:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:38:42:.........Complate..........
+##########################################
+20190113 12:38:55:GET CRE sales Start..........
+20190113 12:38:55:Send mail ['d'] ,12:38:55 Send mail sccuess.
+ 20190113 12:38:55:Send mail ['l'] ,12:38:56 Send mail sccuess.
+ 20190113 12:38:56:Send mail ['c'] ,12:38:56 Send mail sccuess.
+ 20190113 12:38:56:Send mail ['c'] ,12:38:56 Send mail sccuess.
+ 20190113 12:38:56:Send mail ['h'] ,12:38:57 Send mail sccuess.
+ 20190113 12:38:57:Send mail ['s'] ,12:38:57 Send mail sccuess.
+ 20190113 12:38:57:Send mail ['w'] ,12:38:57 Send mail sccuess.
+ 20190113 12:38:57:Send mail ['z'] ,12:38:58 Send mail sccuess.
+ 20190113 12:38:58:Send mail ['s'] ,12:38:58 Send mail sccuess.
+ 20190113 12:38:58:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:38:58:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:38:58:.........Complate..........
+##########################################
+20190113 12:39:28:GET CRE sales Start..........
+20190113 12:39:29:Send mail ['dengchundi@tahoecn.com'] ,12:39:29 Send mail sccuess.
+ 20190113 12:39:29:Send mail ['liuxuanchao@tahoecn.com'] ,12:39:29 Send mail sccuess.
+ 20190113 12:39:29:Send mail ['caohanyan@tahoecn.com'] ,12:39:30 Send mail sccuess.
+ 20190113 12:39:30:Send mail ['changqiqi@tahoecn.com'] ,12:39:30 Send mail sccuess.
+ 20190113 12:39:30:Send mail ['hanyating@tahoecn.com'] ,12:39:30 Send mail sccuess.
+ 20190113 12:39:30:Send mail ['songyuanyuan1@tahoecn.com'] ,12:39:31 Send mail sccuess.
+ 20190113 12:39:31:Send mail ['wangna1@tahoecn.com'] ,12:39:31 Send mail sccuess.
+ 20190113 12:39:31:Send mail ['zhangdawei1@tahoecn.com'] ,12:39:31 Send mail sccuess.
+ 20190113 12:39:31:Send mail ['shaclo@139.com'] ,12:39:31 Send mail sccuess.
+ 20190113 12:39:31:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:39:31:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:39:31:.........Complate..........
+##########################################
+20190113 12:39:51:GET CRE sales Start..........
+20190113 12:39:52:Send mail [ ,12:39:52 Send mail sccuess.
+ 20190113 12:39:52:Send mail [ ,12:39:52 Send mail sccuess.
+ 20190113 12:39:52:Send mail [ ,12:39:53 Send mail sccuess.
+ 20190113 12:39:53:Send mail [ ,12:39:53 Send mail sccuess.
+ 20190113 12:39:53:Send mail [ ,12:39:54 Send mail sccuess.
+ 20190113 12:39:54:Send mail [ ,12:39:54 Send mail sccuess.
+ 20190113 12:39:54:Send mail [ ,12:39:54 Send mail sccuess.
+ 20190113 12:39:54:Send mail [ ,12:39:55 Send mail sccuess.
+ 20190113 12:39:55:Send mail [ ,12:39:55 Send mail sccuess.
+ 20190113 12:39:55:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:39:55:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:39:55:.........Complate..........
+##########################################
+20190113 12:40:20:GET CRE sales Start..........
+20190113 12:40:21:Send mail dengchundi@tahoecn.com ,12:40:21 Send mail sccuess.
+ 20190113 12:40:21:Send mail liuxuanchao@tahoecn.com ,12:40:22 Send mail sccuess.
+ 20190113 12:40:22:Send mail caohanyan@tahoecn.com ,12:40:22 Send mail sccuess.
+ 20190113 12:40:22:Send mail changqiqi@tahoecn.com ,12:40:22 Send mail sccuess.
+ 20190113 12:40:22:Send mail hanyating@tahoecn.com ,12:40:23 Send mail sccuess.
+ 20190113 12:40:23:Send mail songyuanyuan1@tahoecn.com ,12:40:23 Send mail sccuess.
+ 20190113 12:40:23:Send mail wangna1@tahoecn.com ,12:40:23 Send mail sccuess.
+ 20190113 12:40:23:Send mail zhangdawei1@tahoecn.com ,12:40:24 Send mail sccuess.
+ 20190113 12:40:24:Send mail shaclo@139.com ,12:40:24 Send mail sccuess.
+ 20190113 12:40:24:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:40:24:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:40:24:.........Complate..........
+##########################################
+20190113 12:40:35:GET CRE sales Start..........
+20190113 12:40:36:Send mail dengchundi@tahoecn.com ,12:40:36 Send mail sccuess.
+ 20190113 12:40:36:Send mail liuxuanchao@tahoecn.com ,12:40:37 Send mail sccuess.
+ 20190113 12:40:37:Send mail caohanyan@tahoecn.com ,12:40:38 Send mail sccuess.
+ 20190113 12:40:38:Send mail changqiqi@tahoecn.com ,12:40:39 Send mail sccuess.
+ 20190113 12:40:39:Send mail hanyating@tahoecn.com ,12:40:40 Send mail sccuess.
+ 20190113 12:40:40:Send mail songyuanyuan1@tahoecn.com ,12:40:41 Send mail sccuess.
+ 20190113 12:40:41:Send mail wangna1@tahoecn.com ,12:40:42 Send mail sccuess.
+ 20190113 12:40:42:Send mail zhangdawei1@tahoecn.com ,12:40:43 Send mail sccuess.
+ 20190113 12:40:43:Send mail shaclo@139.com ,12:40:43 Send mail sccuess.
+ 20190113 12:40:43:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:40:43:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:40:43:.........Complate..........
+##########################################
+20190113 12:49:42:GET CRE sales Start..........
+20190113 12:49:43:Send mail ['dengchundi@tahoecn.com'] ,12:49:44 Send mail sccuess.
+ 20190113 12:49:44:Send mail ['liuxuanchao@tahoecn.com'] ,12:49:45 Send mail sccuess.
+ 20190113 12:49:45:Send mail ['caohanyan@tahoecn.com'] ,12:49:46 Send mail sccuess.
+ 20190113 12:49:46:Send mail ['changqiqi@tahoecn.com'] ,12:49:46 Send mail sccuess.
+ 20190113 12:49:46:Send mail ['hanyating@tahoecn.com'] ,12:49:47 Send mail sccuess.
+ 20190113 12:49:47:Send mail ['songyuanyuan1@tahoecn.com'] ,12:49:48 Send mail sccuess.
+ 20190113 12:49:48:Send mail ['wangna1@tahoecn.com'] ,12:49:49 Send mail sccuess.
+ 20190113 12:49:49:Send mail ['zhangdawei1@tahoecn.com'] ,12:49:50 Send mail sccuess.
+ 20190113 12:49:50:Send mail ['shaclo@139.com'] ,12:49:51 Send mail sccuess.
+ 20190113 12:49:51:GET D:\TahoeLi_Auto\AutoreportTaholi\api
+20190113 12:49:51:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:49:51:.........Complate..........
+##########################################
+20190113 12:50:49:GET CRE sales Start..........
+20190113 12:50:50:Send mail ['dengchundi@tahoecn.com'] ,12:50:51 Send mail sccuess.
+ 20190113 12:50:51:Send mail ['liuxuanchao@tahoecn.com'] ,12:50:51 Send mail sccuess.
+ 20190113 12:50:51:Send mail ['caohanyan@tahoecn.com'] ,12:50:52 Send mail sccuess.
+ 20190113 12:50:52:Send mail ['changqiqi@tahoecn.com'] ,12:50:53 Send mail sccuess.
+ 20190113 12:50:53:Send mail ['hanyating@tahoecn.com'] ,12:50:54 Send mail sccuess.
+ 20190113 12:50:54:Send mail ['songyuanyuan1@tahoecn.com'] ,12:50:55 Send mail sccuess.
+ 20190113 12:50:55:Send mail ['wangna1@tahoecn.com'] ,12:50:56 Send mail sccuess.
+ 20190113 12:50:56:Send mail ['zhangdawei1@tahoecn.com'] ,12:50:56 Send mail sccuess.
+ 20190113 12:50:56:Send mail ['shaclo@139.com'] ,12:50:57 Send mail sccuess.
+ 20190113 12:50:57:GET C:\ProgramData\Anaconda3
+20190113 12:50:57:TO D:\TahoeLi_Auto\AutoreportTaholi\api\dailysalesmodel
+20190113 12:50:57:.........Complate..........
