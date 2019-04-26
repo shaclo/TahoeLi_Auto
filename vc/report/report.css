@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-12-8, 18:47:17
+    Author     : Administrator
+*/
+#btnbody{
+	font-size:10px;	
+}
+#btnbody input{
+    padding: 0px;
+    width: 120px;
+}
+#btnbody button{
+	display:block;
+	width:200px;
+	margin-top: 20px;
+    margin: 0 auto;
+	height:50px;
+}
+#mainbody{
+	margin:0 auto;
+	width:90%;
+}
+#picktable,#picksum{
+	font-size: 10px;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+	margin-top:10px;
+	width: 100%;
+}
+#picktable tr.non{
+	background-color: #f3d7d7dd;
+}
+#picktable td,#picktable th{
+	border:1px solid black;
+}
+#picktable th{
+	background-color: #d4c9ff;
+}
+span.litlist{
+	width: auto;
+    margin: 4px 5px;
+    border: 1px solid #2f1919;
+    background-color: #b6bec3;
+    display: inline-block;
+    cursor: default;
+	padding:0px 2px;
+}
+div#litlist {
+    margin-top: 20px;
+    background: #f3f3f3;
+    border: 1px dotted black;
+    padding-top: 5px;
+	font-size:10px;
+}
+span.litlisthead {
+    display: block;
+    margin: 5px;
+}

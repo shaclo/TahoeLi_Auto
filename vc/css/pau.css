@@ -1,0 +1,33 @@
+ul>li.mui-table-view-cell>a{
+	color: white;
+}
+button{
+	width: 40%;
+}
+
+#uparea{
+	height: 20%;
+    margin-top: 10px;
+    background-color: #efeff3;
+    padding: 10px;
+}
+#uparea>span.ui-alert{
+	
+}
+#brand2{
+	color: #000;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 2px 2px 2px #ddd;
+	height: 55px;
+}
+#demo2{
+	width: 40%;
+    float: right;
+    background-color: #2983ee;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;;
+}

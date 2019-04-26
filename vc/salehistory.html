@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="css/pau.css" rel="stylesheet" />
+		<script src="js/loginfunctoin.js"></script>
+		<script src="report/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8">	
+			window.onload = function(){
+				document.getElementById("brandname").innerHTML= localStorage.brand;
+				if(!localStorage.contract){
+					window.location.href = "index.html";
+				}else{
+				console.log("get amtsold history");
+					
+					url = "gethistoryamt.php";
+					mui.ajax(url,{
+						data:{
+							//currdate:datet,
+							contract:localStorage.contract
+						},
+						dataType:'json',//服务器返回json格式数据
+						type:'get',//HTTP请求类型
+						timeout:10000,//超时时间设置为10秒；
+						//headers:{'Content-Type':'application/json'},	              
+						success:function(data){
+							//服务器返回响应，根据响应结果，分析是否登录成功；
+							console.log(data);
+							document.getElementById("totallyamt").innerHTML = data.sumsales;
+							document.getElementById("nonamtdays").innerHTML = data.number;
+							//#amttable
+							for(var i = 0;i < data.salesdetail.length;i++){
+								var d1 = data.salesdetail[i]['txdate'];
+								var d2 = data.salesdetail[i]['amtsold'];
+								var d3 = data.salesdetail[i]['transtrades'];
+								var d4 = data.salesdetail[i]['transnum'];
+								var d5 = data.salesdetail[i]['passflow'];
+								var p = "<tr><td>"+d1+"</td><td>"+d2+"</td><td>"+d3+"</td><td>"+d4+"</td><td>"+d5+"</td></tr>";
+								$("#amttable2").append(p);
+							}
+						},
+						error:function(xhr,type,errorThrown){
+							//异常处理；
+							console.log(type);
+						}
+					});
+					
+				}
+			}
+		</script>
+		<style>
+		td{
+			text-align: center;
+		}
+		tr{
+			
+		}
+		#amttable2{
+			font-size:16px;
+		}
+		</style>
+	</head>
+
+	<body>
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		
+		
+		<!-- 主界面菜单同时移动 -->
+			<!-- 侧滑导航根容器 -->
+			<div class="mui-off-canvas-wrap mui-draggable">
+				<!-- 主页面容器 -->
+				<div class="mui-inner-wrap">
+					<!-- 菜单容器 -->
+					<aside class="mui-off-canvas-left" id="offCanvasSide">
+						<div class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<!-- 菜单具体展示内容 -->
+								<ul class="mui-table-view lis" style="background: none;">
+									<li class="mui-table-view-cell"><img style="width: 250px;align-items: center;margin: 0 auto;" src="pic/logo.png"/></li>
+									<li url = "main.html" class="mui-table-view-cell cell3"><a href="#" style="color: white;">销售汇报</a></li>
+									<li url = "salehistory.html"class="mui-table-view-cell cell3"><a href="#" style="color: white;">过往交易</a></li>
+									<li url = "changepwd.html"class="mui-table-view-cell cell3"><a href="#" style="color: white;">密码修改</a></li>
+									<!-- <li url = "kownlage.html" class="mui-table-view-cell cell3"><a href="#" style="color: white;">商场须知</a></li> -->
+									<li url = "kownlage.html" class="mui-table-view-cell logout"><a href="#" style="color: white;">注销</a></li>									
+								</ul>
+								<script src="js/swtichtab.js"></script>
+							</div>
+						</div>
+					</aside>
+					<!-- 主页面标题 -->
+					<header class="mui-bar mui-bar-nav">
+						<a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+						<h1 class="mui-title">本月历史销售</h1>
+					</header>
+					
+					<!-- 主页面内容容器 -->
+					<div class="mui-content mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<!-- 主界面具体展示内容 -->
+							<!--<h2 style='margin-top: 50%;text-align: center;'>开发中</h2>-->
+							<div>
+								<div style="padding-left:10px" id='wwarea'>
+								<h5 style='line-height: 20px;'><a id="brandname"></a> 本月合计销售: ¥ <a id="totallyamt"> 0.0</a><br />
+								本月有<a id="nonamtdays">0</a> 日没有上报任何数据</h5>
+								<h5>如认为上报销售有误，请与商场联系</h5>
+								</div>
+								<hr />
+								<div style="font-size:12px;" id="amttable">
+									<table id="amttable2" style="width:100%"><tr><th>日期</th><th>交易金额</th><th>交易笔数</th><th>交易件数</th><th>客流量</th></tr></table>
+								</div>
+							</div>
+						</div>
+					</div>
+			   	 <div class="mui-off-canvas-backdrop"></div>
+				</div>
+			</div>
+	</body>
+
+</html>

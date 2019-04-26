@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Daily report 2019</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../js/jquery.js" ></script>
+		<script src="report.js" ></script>
+        <link rel="stylesheet" type="text/css" href="report.css" />
+		<script>
+		$(document).ready(function(){
+				var myDate = new Date();
+				var month = myDate.getMonth()+1;
+				var fulldate = myDate.getFullYear()+"-"+month+"-"+myDate.getDate();
+				$("#sdate,#edate").val(fulldate)
+			})
+		
+		</script>
+    </head>
+    <body>
+        <div id='mainbody'>
+			<div id = 'btnbody'>
+				<label><span>开始日期</span><input id="sdate" type="date"  /></label>
+				<label><span>结束日期</span><input id="edate" type="date"  /></label>
+				<label><span style="margin-left:20px">已报销售 <a style="color:red" id = 'havcount'></a> 家</span></label>
+				<label style="margin-top: 20px;display: block;"><button onclick='getreport()'>确认</button></label>
+			</div>
+			<section>
+				<table id='picksum'>
+					<tr>
+						<td>销售合计</td><td><span class='pr1' id="sumamt"></span></td>
+						<td>交易笔数合计</td><td><span class='pr1' id="sumtr"></span></td>
+						<td>交易件数合计</td><td><span class='pr1' id="sumnum"></span></td>
+						<td>客流量合计</td><td><span class='pr1' id = "sumpf"></span></td>
+					</tr>
+					<tr>
+						<td>平均客单价</td><td><span class='pr1' id="per1"></span></td>
+						<td>平均交易笔数</td><td><span class='pr1' id="per2"></span></td>
+						<td>平均成交率</td><td><span class='pr1' id="per3"></span></td>
+						<td>平均件单价</td><td><span class='pr1' id = "per4"></span></td>
+					</tr>
+				</table>
+				<table id='picktable'>
+					<tr><th>合同号</th><th>品牌</th><th>位置</th><th>业态</th><th>日期</th><th>交易金额</th><th>交易笔数</th><th>交易件数</th><th>客流量</th><th>客单价</th><th>件单价</th><th>成交率</th></tr>
+				</table>
+			</section>
+			<div id='litlist'></div>
+		</div>
+    </body>
+</html>
