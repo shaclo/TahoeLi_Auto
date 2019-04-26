@@ -1,5 +1,6 @@
 # TahoeLi_Auto
-<h2>给泰禾北京大兴项目做得python自动报表</h2>
+<h2>泰禾北京大兴项目python自动报表</h2>
+<p>前端js+php编写，报表用python+定时任务完成</p>
 
 <li>azuz.sql Mysql数据库的备份</li>
 <li>AutoreportTaholi:</li>
