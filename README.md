@@ -1,3 +1,4 @@
+<img style="width:70%" src="https://imgs.soufunimg.com/news/2017_11/29/house/1511940412715_000.jpg"></img>
 # TahoeLi_Auto
 <h2>泰禾北京大兴项目python自动报表</h2>
 <p>前端js+php编写，报表用python+定时任务完成</p>
